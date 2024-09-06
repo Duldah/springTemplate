@@ -1,0 +1,6 @@
+@url = https://8080-duldah-springtemplate-693c1ylzb7k.ws-us116.gitpod.io
+###
+GET {{url}} /frutas
+
+###
+GET {{url}} /frutas/2
