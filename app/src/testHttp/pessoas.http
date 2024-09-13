@@ -1,0 +1,29 @@
+@url = https://8080-duldah-springtemplate-6uylknsplb4.ws-us116.gitpod.io
+
+###
+POST {{url}}/pessoas
+Content-Type: application/json
+
+{
+    "nome": "Laura Vitória",
+    "idade": 2
+}
+
+###
+GET {{url}}/pessoas
+
+###
+GET {{url}}/pessoas/1
+
+###
+PUT {{url}}/pessoas/2
+Content-Type: application/json
+
+{
+    "nome": "Registro Modificado",
+    "idade": 1
+}
+
+###
+DELETE {{url}}/pessoas/2
+
